@@ -3,6 +3,7 @@ namespace UsersApp.Tests;
 [TestClass]
 public class UnitTestUserRepository
 {
+
     [TestMethod]
     public void TestGetAllUsers()
     {
@@ -21,5 +22,6 @@ public class UnitTestUserRepository
         // Assert
         Assert.AreEqual(expectedUsers.Count, result.Count);
     }
+
 
 }
